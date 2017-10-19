@@ -21,6 +21,12 @@ hr {
 	margin-right: auto;
 }
 
+a {
+	font-family: Georgia;
+	font-style: italic;
+	text-decoration: none;
+}
+
 /* Hero section */
 
 section.hero {
@@ -104,6 +110,13 @@ footer *:last-child {
 }
 footer a {
 	color: #FFF;
+}
+footer p.github {
+	color: #FCC062;
+	font-weight: bold;
+}
+footer p.github a {
+	color: #FCC062;
 }
 
 /* Responsiveness */
