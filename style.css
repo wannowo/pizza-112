@@ -7,9 +7,12 @@ html, body {
 	min-height: 100vh;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	border: 1em solid #FCC062;
-	box-sizing: border-box;
 }
 
 hr {
@@ -101,4 +104,19 @@ footer *:last-child {
 }
 footer a {
 	color: #FFF;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 660px) {
+	section.menu {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	section.menu .menu-item {
+		flex-direction: column;
+	}
+	section.menu .menu-item .details {
+		width: 100%;
+	}
 }
