@@ -42,3 +42,40 @@ section.hero h2 {
 	margin-top: 0.3em;
 	margin-bottom: 0;
 }
+
+/* Menu section */
+
+section.menu {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 3em;
+}
+section.menu h1 {
+	text-align: center;
+	font-size: 2.5em;
+}
+section.menu .menu-item {
+	display: flex;
+	align-items: center;
+	padding: 0.5em;
+	margin-bottom: 1em;
+	border: 1px solid #e6e6e6;
+}
+section.menu .menu-item:last-child {
+	margin-bottom: 0;
+}
+section.menu .menu-item img {
+	display: block;
+	padding: 0.5em;
+	width: 150px;
+	height: 150px;
+}
+section.menu .menu-item .details {
+	flex: 1;
+	padding: 0.5em;
+}
+section.menu .menu-item .details h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
