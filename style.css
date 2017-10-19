@@ -60,7 +60,7 @@ section.menu .menu-item {
 	align-items: center;
 	padding: 0.5em;
 	margin-bottom: 1em;
-	border: 1px solid #e6e6e6;
+	border: 1px solid #E6E6E6;
 }
 section.menu .menu-item:last-child {
 	margin-bottom: 0;
@@ -75,7 +75,30 @@ section.menu .menu-item .details {
 	flex: 1;
 	padding: 0.5em;
 }
-section.menu .menu-item .details h2 {
+section.menu .menu-item *:first-child {
 	margin-top: 0;
+}
+section.menu .menu-item *:last-child {
 	margin-bottom: 0;
+}
+section.menu .menu-item .details h2 {
+	margin-bottom: 0;
+}
+
+/* Footer */
+
+footer {
+	padding: 4em 1em;
+	background-color: #323232;
+	color: #FFF;
+	text-align: center;
+}
+footer *:first-child {
+	margin-top: 0;
+}
+footer *:last-child {
+	margin-bottom: 0;
+}
+footer a {
+	color: #FFF;
 }
