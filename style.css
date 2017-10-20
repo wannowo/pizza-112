@@ -3,7 +3,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	font-family: -apple-system, "Segoe UI", "Helevetica Neue", sans-serif;
+	font-family: -apple-system, "Segoe UI", "Ubuntu", "Helevetica Neue", sans-serif;
 	min-height: 100vh;
 }
 
